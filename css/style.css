@@ -389,9 +389,10 @@ p {
 }
 
 .subscribe-btn {
-    background-color: #fc5185;
+    background-color: transparent;
     color: var(--secondary-text);
     padding: 10px;
+    border: 1px solid white;
 }
 
 .footer_wrapper {
@@ -408,4 +409,14 @@ p {
 .contact-info ul li a,
 .link-widget li a {
     color: white;
+}
+
+.fa-chevron-right {
+    margin-right: 10px;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+
 }
