@@ -329,6 +329,8 @@ p {
 
 .service_wrapper {
     background-color: var(--primary-colour);
+    padding-bottom: 0px;
+
 }
 
 .service_wrapper .card {
@@ -354,10 +356,9 @@ p {
 }
 
 .gallery_wrapper {
-    background-image: url('../images/gallery/gallery-background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--text-gray);
+    padding-top: 30px;
+
 }
 
 .gallery_wrapper img {
@@ -419,4 +420,32 @@ p {
     color: white;
     opacity: 1;
 
+}
+
+@media (max-width: 1920px) {
+    .Appointment-wrapper {
+        padding-block: 170px;
+    }
+}
+
+.subscribe-btn:hover {
+    background-color: var(--secondary-colour);
+    border-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+/* .menu-navbar-nav {
+    position: absolute !important;
+    background-color: var(--bg-white);
+    width: 100%;
+    z-index: 9;
+} */
+
+.menu-navbar-nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    right: 0;
 }
