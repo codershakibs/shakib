@@ -22,6 +22,10 @@
 
 }
 
+.card img {
+    align-items: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -32,12 +36,16 @@ a {
 }
 
 .main-btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border: .0625rem solid var(--bg-white);
     color: var(--text-white);
     text-align: center;
-    padding: .75rem 1.375rem;
+    height: 55px;
+    padding: 0 20px;
     font-size: 1rem;
+    line-height: 1rem;
     background: transparent;
     text-transform: capitalize;
     border-radius: .1875rem;
@@ -47,7 +55,7 @@ a {
 .main-btn:hover {
     background-color: var(--secondary-colour);
     border-color: var(--secondary-colour);
-    color: var(--text-white);
+    color: var(--text);
 }
 
 .fill-btn {
@@ -59,7 +67,7 @@ a {
 .fill-btn:hover {
     background-color: var(--bg-white);
     border-color: var(--bg-white);
-    color: var(--text-white);
+    color: var(--text-black);
 }
 
 h1 {
@@ -78,13 +86,14 @@ h2 {
 h3 {
     font-size: 2.25rem;
     font-weight: 600;
-    color: var(--text-white);
+    color: var(--text-black);
 }
 
 h4 {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-black);
+
 }
 
 h5 {
@@ -92,8 +101,7 @@ h5 {
     line-height: 1.2;
     font-weight: 600;
     color: var(--primary-text);
-    margin-bottom: 9375rem;
-
+    margin-bottom: .9375rem;
 }
 
 h6 {
@@ -102,7 +110,7 @@ h6 {
     font-weight: 300;
     color: var(--text-black);
     text-transform: uppercase;
-    margin-bottom: 9375rem;
+    margin-bottom: .9375rem;
 
 }
 
@@ -124,7 +132,7 @@ p {
 
 
 
-. @keyframes movebounce {
+@keyframes movebounce {
     0% {
         -webkit-transform: translateY(1.25rem);
         transform: translateY(1.25rem);
@@ -343,4 +351,44 @@ p {
 
 .service_wrapper img {
     margin-bottom: 20px;
+}
+
+.gallery_wrapper {
+    background-image: url('../images/gallery/gallery-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery_wrapper img {
+    border-radius: .9375rem;
+}
+
+.testimonial_wrapper .card {
+    background-color: rgba(252, 81, 133, .05);
+}
+
+.client-image {
+    margin: 0 auto;
+}
+
+.Appointment-wrapper {
+    background-image: url('../images/appointmnet-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Appointment-wrapper h3 {
+    color: var(--text-white);
+}
+
+.blog_wrapper .blog-content {
+    background-color: var(--bg-light-blue);
+    padding: 2.5rem;
+}
+
+.subscribe-btn {
+    background-color: var(--bg-dark);
+    color: var(--secondary-text);
 }

@@ -50,6 +50,10 @@
         padding: 1.875rem;
     }
 
+    .blog_wrapper .card .blog-content {
+        padding: 1.875rem .625rem;
+    }
+
 }
 
 
@@ -100,6 +104,12 @@
     .service_wrapper .card {
         padding: 1.875rem .875rem;
     }
+
+    .blog_wrapper .card .blog-content {
+        margin: 0;
+    }
+
+
 }
 
 @media (max-width:765px) {
