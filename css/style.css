@@ -389,6 +389,23 @@ p {
 }
 
 .subscribe-btn {
-    background-color: var(--bg-dark);
+    background-color: #fc5185;
     color: var(--secondary-text);
+    padding: 10px;
+}
+
+.footer_wrapper {
+    background-color: var(--primary-colour);
+
+}
+
+.clinic {
+    color: white;
+}
+
+
+
+.contact-info ul li a,
+.link-widget li a {
+    color: white;
 }
